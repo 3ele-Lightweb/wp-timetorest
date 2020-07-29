@@ -7,7 +7,7 @@
  * Author URI:      YOUR SITE HERE
  * Text Domain:     lightweb-api-workflow
  * Domain Path:     /languages
- * Version:         0.1.0
+ * Version:         1.1.0
  *
  * @package         Lightweb_Api_Workflow
  */
@@ -91,3 +91,5 @@ function latest_posts($data) {
     ),   
     ) );
   } );
+
+  //add_action( 'init', create_function( '', 'global $WPGitHubUpdaterSetup; $WPGitHubUpdaterSetup = new WPGitHubUpdaterSetup();' ) );
