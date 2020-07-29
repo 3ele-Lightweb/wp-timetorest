@@ -7,11 +7,14 @@
  * Author URI:      YOUR SITE HERE
  * Text Domain:     lightweb-api-workflow
  * Domain Path:     /languages
- * Version:         1.1.0
+ * Version:         0.1.0
  *
  * @package         Lightweb_Api_Workflow
  */
-
+/*
+ * @since 1.3
+ * @version 1.0
+ */
 add_action( 'init', 'github_plugin_updater_test_init' );
 function github_plugin_updater_test_init() {
 
