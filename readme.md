@@ -9,6 +9,6 @@ Stable tag: 0.1.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-~Current Version:1.4~
+~Current Version:3.4~
 
-Current Version:1.4
+Current Version:3.4
