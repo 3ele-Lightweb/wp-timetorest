@@ -1,19 +1,14 @@
 <?php
 /**
  * Plugin Name:     Lightweb Api Workflow
- * Plugin URI:      PLUGIN SITE HERE
+ * Plugin URI:      https://github.com/3ele-Lightweb/wp-timetorest
  * Description:     RETURN ON example.com/wp-json/lightweb/v1/jobs text jobs for texter
- * Author:          YOUR NAME HERE
- * Author URI:      YOUR SITE HERE
- * Text Domain:     lightweb-api-workflow
+ * Author:          Sebastian Weiss
+ * Author URI:      www.3ele.de
  * Domain Path:     /languages
  * Version:         0.1.0
  *
- * @package         Lightweb_Api_Workflow
- */
-/*
- * @since 1.3
- * @version 1.0
+
  */
 add_action( 'init', 'github_plugin_updater_test_init' );
 function github_plugin_updater_test_init() {
@@ -26,7 +21,7 @@ function github_plugin_updater_test_init() {
 
 		$config = array(
 			'slug' => plugin_basename( __FILE__ ),
-			'proper_folder_name' => 'github-updater',
+			'proper_folder_name' => 'wp-timetorest',
 			'api_url' => 'https://api.github.com/repos/3ele-Lightweb/wp-timetorest',
 			'raw_url' => 'https://raw.github.com/3ele-Lightweb/wp-timetorest',
 			'github_url' => 'https://github.com/3ele-Lightweb/wp-timetorest',
@@ -34,7 +29,7 @@ function github_plugin_updater_test_init() {
 			'sslverify' => true,
 			'requires' => '3.0',
 			'tested' => '3.3',
-			'readme' => 'README.md',
+			'readme' => 'readme.md',
 			'access_token' => '',
 		);
 
@@ -95,4 +90,3 @@ function latest_posts($data) {
     ) );
   } );
 
-  //add_action( 'init', create_function( '', 'global $WPGitHubUpdaterSetup; $WPGitHubUpdaterSetup = new WPGitHubUpdaterSetup();' ) );
